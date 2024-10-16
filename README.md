@@ -23,7 +23,7 @@ cd [Project_Dir]\OGAF
 Add the OGAF library to your project’s dependencies according to your development environment's guidelines.
 
 ```cpp
-#include "OGUI/OpenGUILib.h>
+#include "OGUI/OpenGUILib.h"
 ```
 
 ## 5. Copy the Example Application
