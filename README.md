@@ -2,15 +2,27 @@
 
 OGAF is a lightweight Win32 application framework that makes it easy to create user interfaces. Follow these steps to set it up in your project.
 
-## 1. Clone the Repository
+## 1. Create Folder in Project Directory
+
+Open your command line interface (CLI) and run the following command to clone the OGAF repository into your project directory:
+
+```folder_structure
+Project_Name
+  \ - OGAF
+  \ - Source Files
+```
+
+Go into the newly created OGAF Directory, and open CMD Prompt at the location
+
+## 2. Clone the Repository
 
 Open your command line interface (CLI) and run the following command to clone the OGAF repository into your project directory:
 
 ```bash
-git clone https://github.com/LandenTy/OGAF.git [Project_Dir]\OGAF
+git clone https://github.com/LandenTy/OGAF.git
 ```
 
-## 2. Navigate to the OGAF Directory
+## 3. Navigate to the OGAF Directory
 
 Change your directory to the newly created OGAF folder:
 
@@ -18,7 +30,7 @@ Change your directory to the newly created OGAF folder:
 cd [Project_Dir]\OGAF
 ```
 
-## 3. Include OGAF in Your Project
+## 4. Include OGAF in Your Project
 
 Add the OGAF library to your project’s dependencies according to your development environment's guidelines.
 
